@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:text="Легко скажи"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColorHighlight="#1B0F0F"
+        android:textIsSelectable="false"
+        android:textSize="34sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/txtrobot"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Поле текстовых сообщений"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="Старт распознавания"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="Стоп распознавания"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="Сохранить букву"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="Очистить память"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/plain_text_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:maxLength="12"/>
+
+</LinearLayout>
